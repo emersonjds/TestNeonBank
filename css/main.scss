@@ -37,6 +37,16 @@ header {
 main {
   height: calc(100% - 255px);
   background-color: yellow;
+
+  .container-main {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/foto.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: cover;
+       background-size: cover;
+  }
 }
 
 footer  {
