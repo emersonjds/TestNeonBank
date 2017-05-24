@@ -21,9 +21,15 @@ header {
 
   .header-logo{
     width: 60%;
+    height: 100%;
+    @include flex;
+
     img {
-      width: 100%;
-      height: 100%;
+      background-image: url('../img/mobile/topo/Logo Neon.png');
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-attachment: cover;
     }
   }
 }

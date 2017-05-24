@@ -16,10 +16,17 @@ header {
     width: 20%;
     height: 100%; }
   header .header-logo {
-    width: 60%; }
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     header .header-logo img {
-      width: 100%;
-      height: 100%; }
+      background-image: url("../img/mobile/topo/Logo Neon.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-attachment: cover; }
 
 main {
   height: calc(100% - 255px);
@@ -39,10 +46,6 @@ footer {
 @media only screen and (max-width: 320px) {
   /* Styles */ }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  header .header-logo img {
-    height: 40px;
-    width: 100%; } }
 /* iPads (landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   /* Styles */ }

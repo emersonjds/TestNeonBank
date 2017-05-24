@@ -21,9 +21,9 @@ and (max-width : 320px) {
 and (min-width : 768px)
 and (max-width : 1024px) {
 header {
-    .header-logo img {
-      height: 40px;
-      width: 100%;
+    .header-logo {
+      // height: 40px;
+      // width: 100%;
     }
   }
 }
