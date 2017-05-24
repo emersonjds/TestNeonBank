@@ -1,13 +1,12 @@
 body, html {
   height: 100%;
   width: 100%;
-  background-color: #cecece;
   padding: 0;
   margin: 0; }
 
 header {
   height: 55px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
   width: 100%;
   display: flex;
   align-items: center; }
@@ -29,20 +28,31 @@ header {
       background-attachment: cover; }
 
 main {
-  height: calc(100% - 255px);
-  background-color: yellow; }
+  background-color: yellow;
+  height: auto; }
   main .container-main {
-    height: 100%;
+    height: 250px;
     width: 100%;
     background-image: url("../img/foto.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: cover;
     background-size: cover; }
+  main .container-carrosel {
+    height: 250px;
+    background-color: lightgreen;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    main .container-carrosel .carrosel-box {
+      height: 230px;
+      border: 1px solid black;
+      border-radius: 12px; }
 
 footer {
+  border-top: 1px solid #000;
   height: 150px;
-  border-top: 1px solid black;
   width: 100%; }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
