@@ -2,7 +2,8 @@ body, html {
   height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
 
 header {
   height: 55px;
@@ -16,10 +17,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    width: 15%;
     height: 100%; }
   header .header-logo {
-    width: 60%;
+    width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -33,6 +34,8 @@ header {
 
 main {
   height: auto; }
+  main .container {
+    position: relative; }
   main .container-img {
     height: 250px;
     width: 100%;
@@ -42,22 +45,45 @@ main {
     background-attachment: cover;
     background-size: cover;
     position: relative;
-    margin-top: -30px;
+    margin-top: -50px;
     z-index: -1;
     border-radius: 50% / 10%;
-    border-bottom: 2px solid #000; }
+    border-bottom: 2px solid #000;
+    filter: grayscale(0.5);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  main .container-text {
+    position: absolute;
+    top: 50px;
+    z-index: 1; }
+    main .container-text h3 {
+      margin: 0; }
+    main .container-text .first-title {
+      color: #fff;
+      text-align: center;
+      font-weight: 100; }
   main .container-carrosel {
+    margin: 1em .5em;
     height: auto;
     display: flex;
     justify-content: space-around; }
     main .container-carrosel .left-side, main .container-carrosel .right-side {
       width: 20%;
-      background-color: red;
       display: flex;
       align-items: center;
       justify-content: center; }
       main .container-carrosel .left-side figure, main .container-carrosel .right-side figure {
-        margin: 0; }
+        margin: 0;
+        padding: .5em;
+        border: 1px solid black;
+        border-radius: 100%;
+        height: auto;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
     main .container-carrosel .carrosel-box {
       border: 1px solid black;
       border-radius: 12px;
@@ -72,12 +98,15 @@ main {
         align-items: center;
         justify-content: center;
         width: 100%; }
+        main .container-carrosel .carrosel-box .carrosel-img figure {
+          margin: 0; }
       main .container-carrosel .carrosel-box .carrosel-text {
-        text-align: center; }
+        text-align: center;
+        color: #626264; }
       main .container-carrosel .carrosel-box .saiba-mais {
         border: 1px solid black;
         border-radius: 10px;
-        background-image: linear-gradient(to right, white, purple);
+        background-image: linear-gradient(to right, #1276AF, #00e3c0);
         font-weight: bold;
         color: #fff;
         height: 30px;
@@ -85,9 +114,36 @@ main {
 
 footer {
   border-top: 1px solid #000;
-  height: 150px;
-  width: 100%;
-  background-color: #1276af; }
+  height: 155px;
+  background-color: #1276af;
+  padding: 0 1.5em 0 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  footer .atendimento, footer .icons, footer address {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around; }
+  footer .atendimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  footer address {
+    color: #fff;
+    flex-direction: column; }
+
+.right-side figure {
+  background: #00a6dd;
+  -webkit-box-shadow: 0px 0px 12px 0px #00a6dd;
+  -moz-box-shadow: 0px 0px 12px 0px #00a6dd;
+  box-shadow: 0px 0px 12px 0px #00a6dd; }
+
+.left-side figure {
+  background: #1276AF;
+  border-color: #1276AF; }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /* Styles */ }
