@@ -9,7 +9,8 @@ header {
   border-bottom: 1px solid #000;
   width: 100%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  background-color: #fff; }
   header .header-left, header .header-right {
     background-color: red;
     width: 20%;
@@ -28,7 +29,6 @@ header {
       background-attachment: cover; }
 
 main {
-  background-color: yellow;
   height: auto; }
   main .container-main {
     height: 250px;
@@ -37,18 +37,27 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: cover;
-    background-size: cover; }
+    background-size: cover;
+    position: relative;
+    margin-top: -30px;
+    z-index: -1;
+    border-radius: 50% / 10%;
+    border-bottom: 2px solid #000; }
   main .container-carrosel {
-    height: 250px;
-    background-color: lightgreen;
+    height: auto;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center; }
     main .container-carrosel .carrosel-box {
-      height: 230px;
       border: 1px solid black;
-      border-radius: 12px; }
+      border-radius: 12px;
+      padding: 0 1em; }
+      main .container-carrosel .carrosel-box .carrosel-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
 
 footer {
   border-top: 1px solid #000;
