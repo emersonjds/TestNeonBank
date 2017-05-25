@@ -12,7 +12,10 @@ header {
   align-items: center;
   background-color: #fff; }
   header .header-left, header .header-right {
-    background-color: red;
+    border: 1px solid #cecece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20%;
     height: 100%; }
   header .header-logo {
@@ -30,7 +33,7 @@ header {
 
 main {
   height: auto; }
-  main .container-main {
+  main .container-img {
     height: 250px;
     width: 100%;
     background-image: url("../img/foto.png");
@@ -62,7 +65,8 @@ main {
 footer {
   border-top: 1px solid #000;
   height: 150px;
-  width: 100%; }
+  width: 100%;
+  background-color: #1276af; }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /* Styles */ }
