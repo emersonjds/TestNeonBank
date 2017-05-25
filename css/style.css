@@ -48,19 +48,40 @@ main {
     border-bottom: 2px solid #000; }
   main .container-carrosel {
     height: auto;
-    padding: 1em;
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    justify-content: space-around; }
+    main .container-carrosel .left-side, main .container-carrosel .right-side {
+      width: 20%;
+      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      main .container-carrosel .left-side figure, main .container-carrosel .right-side figure {
+        margin: 0; }
     main .container-carrosel .carrosel-box {
       border: 1px solid black;
       border-radius: 12px;
-      padding: 0 1em; }
+      padding: .5em;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
       main .container-carrosel .carrosel-box .carrosel-img {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%; }
+      main .container-carrosel .carrosel-box .carrosel-text {
+        text-align: center; }
+      main .container-carrosel .carrosel-box .saiba-mais {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, white, purple);
+        font-weight: bold;
+        color: #fff;
+        height: 30px;
+        width: 100px; }
 
 footer {
   border-top: 1px solid #000;

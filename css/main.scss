@@ -56,21 +56,48 @@ main {
 
   .container-carrosel {
     height: auto;
-    padding: 1em ;
-    @include flex;
+    // padding: 1em;
+    display: flex;
+    justify-content: space-around;
+
+    .left-side, .right-side {
+      width: 20%;
+      background-color: red;
+      @include flex;
+
+      figure {
+        margin: 0;
+      }
+    }
 
     .carrosel-box {
       border: 1px solid black;
       border-radius: 12px;
-      padding: 0 1em;
+      padding: .5em;
+      width: 60%;
+      @include flex;
+      flex-direction: column;
 
       .carrosel-img {
         @include flex;
         width: 100%;
       }
 
-    }
+      .carrosel-text {
+        text-align: center;
+      }
 
+      .saiba-mais {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, white, purple);
+        font-weight: bold;
+        color: #fff;
+        height: 30px;
+        width: 100px;
+      }
+
+    }
   }
 }
 
