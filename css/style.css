@@ -7,18 +7,43 @@ body, html {
 
 header {
   height: 55px;
-  border-bottom: 1px solid #000;
   width: 100%;
   display: flex;
   align-items: center;
   background-color: #fff; }
   header .header-left, header .header-right {
-    border: 1px solid #cecece;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 15%;
     height: 100%; }
+  header .header-right figure {
+    margin: 0; }
+  header .header-right .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background: #f1e767;
+    background: -moz-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #f1e767), color-stop(100%, #feb645));
+    background: -webkit-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -o-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -ms-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: linear-gradient(to right, #f1e767 0%, #feb645 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 ); }
+  header .header-left figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cecece;
+    border-size: 3px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%; }
   header .header-logo {
     width: 70%;
     height: 100%;
@@ -33,6 +58,7 @@ header {
       background-attachment: cover; }
 
 main {
+  min-height: calc(100% - 255px);
   height: auto; }
   main .container {
     position: relative; }
@@ -70,7 +96,7 @@ main {
     display: flex;
     justify-content: space-around; }
     main .container-carrosel .left-side, main .container-carrosel .right-side {
-      width: 20%;
+      width: 15%;
       display: flex;
       align-items: center;
       justify-content: center; }
@@ -120,7 +146,6 @@ main {
         border: none; }
 
 footer {
-  border-top: 1px solid #000;
   background-color: #1276af;
   padding: 0 1.5em 0 1.5em;
   display: flex;
@@ -137,13 +162,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around; }
+    footer .atendimento h3 {
+      color: #fff; }
+    footer .atendimento .atendimento-text {
+      color: #0f5f8c; }
   footer address {
     color: #0f5f8c;
     flex-direction: column;
     padding: 1em;
     text-align: center; }
-    footer address .atendimento .atendimento-text {
-      color: #0f5f8c; }
 
 .right-side figure {
   background: #00a6dd;
