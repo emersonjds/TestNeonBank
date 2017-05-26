@@ -3,6 +3,7 @@ body , html {
   width: 100%;
   padding: 0;
   margin: 0;
+  font-family: 'Averta Light', sans-serif;
 }  
 
 header {
@@ -97,17 +98,14 @@ main {
   .container-text {
     position: absolute;
     top: 50px;
-    h3 {
-      margin: 0;
-    }
     z-index: 1;
     .first-title {
       color: #fff;
       text-align: center;
-      font-weight: lighter;
-      font-family: 'Averta-Extrathin';
-      font-weight: 100;
+      font-family: 'Averta Regular', sans-serif;
+      font-weight: normal;
       font-style: normal;
+      font-size: 16px;
     }
   }
 
