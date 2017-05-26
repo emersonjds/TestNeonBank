@@ -3,7 +3,6 @@ body , html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
 }  
 
 header {
@@ -105,7 +104,10 @@ main {
     .first-title {
       color: #fff;
       text-align: center;
+      font-weight: lighter;
+      font-family: 'Averta-Extrathin';
       font-weight: 100;
+      font-style: normal;
     }
   }
 
@@ -133,6 +135,7 @@ main {
 
     .carrosel-box {
       border-radius: 12px;
+      border: 1px solid #e6e4e4;
       padding: .5em;
       width: 60%;
       @include flex;
@@ -191,6 +194,7 @@ footer  {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
     h3 {
       color: #fff;
     }

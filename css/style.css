@@ -1,9 +1,200 @@
+@font-face {
+  font-family: 'Averta-RegularItalic';
+  src: url("./fonts/Averta-RegularItalic.eot");
+  src: url("./fonts/Averta-RegularItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/Averta-RegularItalic.woff") format("woff"), url("./fonts/Averta-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("./fonts/Averta-Regular.eot");
+  src: url("./fonts/Averta-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Averta-Regular.woff") format("woff"), url("./fonts/Averta-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-ExtraBoldItalic';
+  src: url("./fonts/Averta-ExtraBoldItalic.eot");
+  src: url("./fonts/Averta-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/Averta-ExtraBoldItalic.woff") format("woff"), url("./fonts/Averta-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-Extrathin';
+  src: url("./fonts/Averta-Extrathin.eot");
+  src: url("./fonts/Averta-Extrathin.eot?#iefix") format("embedded-opentype"), url("./fonts/Averta-Extrathin.woff") format("woff"), url("./fonts/Averta-Extrathin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-BoldItalic';
+  src: url("Averta-BoldItalic.eot");
+  src: url("Averta-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Averta-BoldItalic.woff") format("woff"), url("Averta-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Black.eot");
+  src: url("Averta-Black.eot?#iefix") format("embedded-opentype"), url("Averta-Black.woff") format("woff"), url("Averta-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Thin.eot");
+  src: url("Averta-Thin.eot?#iefix") format("embedded-opentype"), url("Averta-Thin.woff") format("woff"), url("Averta-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-SemiboldItalic';
+  src: url("Averta-SemiboldItalic.eot");
+  src: url("Averta-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("Averta-SemiboldItalic.woff") format("woff"), url("Averta-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Light.eot");
+  src: url("Averta-Light.eot?#iefix") format("embedded-opentype"), url("Averta-Light.woff") format("woff"), url("Averta-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-ThinItalic';
+  src: url("Averta-ThinItalic.eot");
+  src: url("Averta-ThinItalic.eot?#iefix") format("embedded-opentype"), url("Averta-ThinItalic.woff") format("woff"), url("Averta-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-ExtrathinItalic';
+  src: url("Averta-ExtrathinItalic.eot");
+  src: url("Averta-ExtrathinItalic.eot?#iefix") format("embedded-opentype"), url("Averta-ExtrathinItalic.woff") format("woff"), url("Averta-ExtrathinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-LightItalic';
+  src: url("Averta-LightItalic.eot");
+  src: url("Averta-LightItalic.eot?#iefix") format("embedded-opentype"), url("Averta-LightItalic.woff") format("woff"), url("Averta-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-BlackItalic';
+  src: url("Averta-BlackItalic.eot");
+  src: url("Averta-BlackItalic.eot?#iefix") format("embedded-opentype"), url("Averta-BlackItalic.woff") format("woff"), url("Averta-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-ExtraBold.eot");
+  src: url("Averta-ExtraBold.eot?#iefix") format("embedded-opentype"), url("Averta-ExtraBold.woff") format("woff"), url("Averta-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Bold.eot");
+  src: url("Averta-Bold.eot?#iefix") format("embedded-opentype"), url("Averta-Bold.woff") format("woff"), url("Averta-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Semibold.eot");
+  src: url("Averta-Semibold.eot?#iefix") format("embedded-opentype"), url("Averta-Semibold.woff") format("woff"), url("Averta-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-ExtraBold_1.eot");
+  src: url("Averta-ExtraBold_1.eot?#iefix") format("embedded-opentype"), url("Averta-ExtraBold_1.woff") format("woff"), url("Averta-ExtraBold_1.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-BoldItalic';
+  src: url("Averta-BoldItalic_1.eot");
+  src: url("Averta-BoldItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-BoldItalic_1.woff") format("woff"), url("Averta-BoldItalic_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-SemiboldItalic';
+  src: url("Averta-SemiboldItalic_1.eot");
+  src: url("Averta-SemiboldItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-SemiboldItalic_1.woff") format("woff"), url("Averta-SemiboldItalic_1.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-ThinItalic';
+  src: url("Averta-ThinItalic_1.eot");
+  src: url("Averta-ThinItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-ThinItalic_1.woff") format("woff"), url("Averta-ThinItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Light_1.eot");
+  src: url("Averta-Light_1.eot?#iefix") format("embedded-opentype"), url("Averta-Light_1.woff") format("woff"), url("Averta-Light_1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Black_1.eot");
+  src: url("Averta-Black_1.eot?#iefix") format("embedded-opentype"), url("Averta-Black_1.woff") format("woff"), url("Averta-Black_1.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Thin_1.eot");
+  src: url("Averta-Thin_1.eot?#iefix") format("embedded-opentype"), url("Averta-Thin_1.woff") format("woff"), url("Averta-Thin_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Bold_1.eot");
+  src: url("Averta-Bold_1.eot?#iefix") format("embedded-opentype"), url("Averta-Bold_1.woff") format("woff"), url("Averta-Bold_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-ExtraBoldItalic';
+  src: url("Averta-ExtraBoldItalic_1.eot");
+  src: url("Averta-ExtraBoldItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-ExtraBoldItalic_1.woff") format("woff"), url("Averta-ExtraBoldItalic_1.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-ExtrathinItalic';
+  src: url("Averta-ExtrathinItalic_1.eot");
+  src: url("Averta-ExtrathinItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-ExtrathinItalic_1.woff") format("woff"), url("Averta-ExtrathinItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-BlackItalic';
+  src: url("Averta-BlackItalic_1.eot");
+  src: url("Averta-BlackItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-BlackItalic_1.woff") format("woff"), url("Averta-BlackItalic_1.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta-Extrathin';
+  src: url("./fonts/Averta-Extrathin_1.eot");
+  src: url("./fonts/Averta-Extrathin_1.eot?#iefix") format("embedded-opentype"), url("./fonts/Averta-Extrathin_1.woff") format("woff"), url("./fonts/Averta-Extrathin_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Regular_1.eot");
+  src: url("Averta-Regular_1.eot?#iefix") format("embedded-opentype"), url("Averta-Regular_1.woff") format("woff"), url("Averta-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-RegularItalic';
+  src: url("Averta-RegularItalic_1.eot");
+  src: url("Averta-RegularItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-RegularItalic_1.woff") format("woff"), url("Averta-RegularItalic_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("Averta-Semibold_1.eot");
+  src: url("Averta-Semibold_1.eot?#iefix") format("embedded-opentype"), url("Averta-Semibold_1.woff") format("woff"), url("Averta-Semibold_1.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Averta-LightItalic';
+  src: url("Averta-LightItalic_1.eot");
+  src: url("Averta-LightItalic_1.eot?#iefix") format("embedded-opentype"), url("Averta-LightItalic_1.woff") format("woff"), url("Averta-LightItalic_1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
 body, html {
   height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif; }
+  margin: 0; }
 
 header {
   height: 55px;
@@ -89,7 +280,10 @@ main {
     main .container-text .first-title {
       color: #fff;
       text-align: center;
-      font-weight: 100; }
+      font-weight: lighter;
+      font-family: 'Averta-Extrathin';
+      font-weight: 100;
+      font-style: normal; }
   main .container-carrosel {
     margin: 1em .5em;
     height: auto;
@@ -112,6 +306,7 @@ main {
         justify-content: center; }
     main .container-carrosel .carrosel-box {
       border-radius: 12px;
+      border: 1px solid #e6e4e4;
       padding: .5em;
       width: 60%;
       display: flex;
