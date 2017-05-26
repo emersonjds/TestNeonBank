@@ -1,25 +1,46 @@
 @media only screen
 and (min-width : 320px)
 and (max-width : 480px) {
-	/* Styles */
+	
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-	/* Styles */
+	
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-	/* Styles */
+	
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
+
+	.header-logo {
+		width: 60% !important;
+	}
+
+	.header-left, .header-right {
+		width: 20% !important;
+	}
+
+	.download {
+		border-radius: 20px !important;
+		width: 140px !important;
+		text-decoration: none !important;
+		background-color: #fff;
+		color: #777;
+	}
+	.exibir-texto {
+		display: block !important;
+		font-size: 13px;
+		margin-left: 10px;
+	}
 	
 }
 
@@ -28,8 +49,18 @@ and (max-width : 1024px) {
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
-
-	
+	.download {
+		border-radius: 20px !important;
+		width: 150px !important;
+		text-decoration: none !important;
+		background-color: #fff;
+		color: #777;
+	}
+	.exibir-texto {
+		display: block !important;
+		
+		margin-left: 10px;
+	}
 }
 
 /* iPads (portrait) ----------- */
@@ -37,6 +68,15 @@ and (orientation : landscape) {
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
+	.container-img {
+		height: 500px !important;
+		.container-text {
+			top: 130px !important;
+			.first-title {
+				font-size: 24px !important;
+			}
+		}
+	}
 
 }
 
@@ -44,9 +84,65 @@ and (orientation : portrait) {
 @media only screen
 and (min-width: 1200px) {
 
+	.download {
+		cursor: pointer;
+		position: relative;
+		text-decoration: none !important;
+
+		&:hover {
+			background-color: #fff;
+			color: #777;
+			-webkit-transition: All 0.5s ease;
+			-moz-transition: All 0.5s ease;
+			-o-transition: All 0.5s ease;
+			-ms-transition: All 0.5s ease;
+			transition: All 0.5s ease;
+			border-radius: 20px !important;
+			width: 150px !important;
+			
+			img {
+				position: absolute;
+				left: 10px;
+			}
+
+			.exibir-texto {
+				display: block;
+				margin-left: 10px;
+			}
+		}
+	}
+
 	main {
 		height: calc(100% - 90px) !important;
+
+		.container-img {
+			height: 400px !important;
+		}
+
+		.container-text {
+			top: 110px !important;
+			.first-title {
+				font-size: 24px !important;
+			}
+		}
 	}
+
+	.redes-sociais {
+		.icons {
+			a {
+				cursor: pointer;
+			}
+		}
+	}
+
+
+	.container-carrosel {
+		height: 260px !important;
+		#slides {
+			height: 270px !important;
+		}
+	}
+
 
 	footer {
 		background-color: #1276af;
@@ -60,6 +156,37 @@ and (min-width: 1200px) {
 
 @media only screen
 and (min-width : 1224px) {
+
+	.download {
+		cursor: pointer;
+		position: relative;
+		text-decoration: none !important;
+
+		&:hover {
+			background-color: #fff;
+			color: #777;
+			-webkit-transition: All 0.5s ease;
+			-moz-transition: All 0.5s ease;
+			-o-transition: All 0.5s ease;
+			-ms-transition: All 0.5s ease;
+			transition: All 0.5s ease;
+			border-radius: 20px !important;
+			width: 150px !important;
+			
+			img {
+				position: absolute;
+				left: 10px;
+			}
+
+			.exibir-texto {
+				display: block;
+				margin-left: 10px;
+			}
+		}
+	}
+
+
+
 	.saiba-mais {
 		&:hover {
 			-webkit-transform: scale(1.1); 
@@ -75,10 +202,64 @@ and (min-width : 1224px) {
 	}
 }
 
+@media only screen and(min-width: 1440px) {
+	.container-carrosel {
+		height: 350px !important;
+		#slides {
+			height: 350px !important;
+		}
+	}
+}
 
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
+
+	.download {
+		cursor: pointer;
+		position: relative;
+		text-decoration: none !important;
+
+		&:hover {
+			background-color: #fff;
+			color: #777;
+			-webkit-transition: All 0.5s ease;
+			-moz-transition: All 0.5s ease;
+			-o-transition: All 0.5s ease;
+			-ms-transition: All 0.5s ease;
+			transition: All 0.5s ease;
+			border-radius: 20px !important;
+			width: 150px !important;
+			
+			img {
+				position: absolute;
+				left: 10px;
+			}
+
+			.exibir-texto {
+				display: block;
+				margin-left: 10px;
+			}
+		}
+	}
+
+
+
+	.container-img {
+		height: 430px !important;
+	}
+
+	.container-text {
+		top: 120px !important;
+		.first-title {
+			font-size: 24px !important;
+		}
+	}
+	
+	.container-carrosel {
+		height: 350px;
+	}
+
 	.saiba-mais {
 		&:hover {
 			-webkit-transform: scale(1.1); 

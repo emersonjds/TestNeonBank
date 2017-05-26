@@ -1,18 +1,83 @@
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* Styles */ }
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */ }
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */ }
 /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-logo {
+    width: 60% !important; }
+
+  .header-left, .header-right {
+    width: 20% !important; }
+
+  .download {
+    border-radius: 20px !important;
+    width: 140px !important;
+    text-decoration: none !important;
+    background-color: #fff;
+    color: #777; }
+
+  .exibir-texto {
+    display: block !important;
+    font-size: 13px;
+    margin-left: 10px; } }
 /* iPads (landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .download {
+    border-radius: 20px !important;
+    width: 150px !important;
+    text-decoration: none !important;
+    background-color: #fff;
+    color: #777; }
+
+  .exibir-texto {
+    display: block !important;
+    margin-left: 10px; } }
 /* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .container-img {
+    height: 500px !important; }
+    .container-img .container-text {
+      top: 130px !important; }
+      .container-img .container-text .first-title {
+        font-size: 24px !important; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1200px) {
+  .download {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none !important; }
+    .download:hover {
+      background-color: #fff;
+      color: #777;
+      -webkit-transition: All 0.5s ease;
+      -moz-transition: All 0.5s ease;
+      -o-transition: All 0.5s ease;
+      -ms-transition: All 0.5s ease;
+      transition: All 0.5s ease;
+      border-radius: 20px !important;
+      width: 150px !important; }
+      .download:hover img {
+        position: absolute;
+        left: 10px; }
+      .download:hover .exibir-texto {
+        display: block;
+        margin-left: 10px; }
+
   main {
     height: calc(100% - 90px) !important; }
+    main .container-img {
+      height: 400px !important; }
+    main .container-text {
+      top: 110px !important; }
+      main .container-text .first-title {
+        font-size: 24px !important; }
+
+  .redes-sociais .icons a {
+    cursor: pointer; }
+
+  .container-carrosel {
+    height: 260px !important; }
+    .container-carrosel #slides {
+      height: 270px !important; }
 
   footer {
     background-color: #1276af;
@@ -22,6 +87,27 @@
     height: 90px;
     display: flex; } }
 @media only screen and (min-width: 1224px) {
+  .download {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none !important; }
+    .download:hover {
+      background-color: #fff;
+      color: #777;
+      -webkit-transition: All 0.5s ease;
+      -moz-transition: All 0.5s ease;
+      -o-transition: All 0.5s ease;
+      -ms-transition: All 0.5s ease;
+      transition: All 0.5s ease;
+      border-radius: 20px !important;
+      width: 150px !important; }
+      .download:hover img {
+        position: absolute;
+        left: 10px; }
+      .download:hover .exibir-texto {
+        display: block;
+        margin-left: 10px; }
+
   .saiba-mais:hover {
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
@@ -32,8 +118,45 @@
     transform: scale(1.1);
     height: 40px;
     width: 120px; } }
+@media only screen and (min-width: 1440px) {
+  .container-carrosel {
+    height: 350px !important; }
+    .container-carrosel #slides {
+      height: 350px !important; } }
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
+  .download {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none !important; }
+    .download:hover {
+      background-color: #fff;
+      color: #777;
+      -webkit-transition: All 0.5s ease;
+      -moz-transition: All 0.5s ease;
+      -o-transition: All 0.5s ease;
+      -ms-transition: All 0.5s ease;
+      transition: All 0.5s ease;
+      border-radius: 20px !important;
+      width: 150px !important; }
+      .download:hover img {
+        position: absolute;
+        left: 10px; }
+      .download:hover .exibir-texto {
+        display: block;
+        margin-left: 10px; }
+
+  .container-img {
+    height: 430px !important; }
+
+  .container-text {
+    top: 120px !important; }
+    .container-text .first-title {
+      font-size: 24px !important; }
+
+  .container-carrosel {
+    height: 350px; }
+
   .saiba-mais:hover {
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
@@ -47,13 +170,18 @@
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* Styles */ }
-/* This stylesheet generated by Transfonter (https://transfonter.org) on May 26, 2017 2:09 AM */
 @font-face {
   font-family: 'Averta-RegularItalic';
   src: url("./assets/fonts/Averta-RegularItalic.eot");
   src: url("./assets/fonts/Averta-RegularItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Averta-RegularItalic.woff") format("woff"), url("./assets/fonts/Averta-RegularItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
+@font-face {
+  font-family: 'Averta';
+  src: url("./assets/fonts/Averta-Regular.eot");
+  src: url("./assets/fonts/Averta-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Averta-Regular.woff") format("woff"), url("./assets/fonts/Averta-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
   font-family: 'Averta';
   src: url("./assets/fonts/Averta-Regular.eot");
@@ -198,6 +326,11 @@
   opacity: 1;
   z-index: 2; }
 
+.subtitle {
+  margin: 5px;
+  line-height: initial;
+  color: #1276AF; }
+
 .slide:nth-of-type(1) .img-slider {
   height: 90px;
   width: 90px;
@@ -247,30 +380,34 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #fff; }
+  background-color: #fff;
+  position: absolute;
+  top: 0; }
   header .header-left, header .header-right {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 15%;
     height: 100%; }
-  header .header-right figure {
-    margin: 0; }
-  header .header-right .download {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 35px;
-    border-radius: 100%;
-    background: #f1e767;
-    background: -moz-linear-gradient(left, #f1e767 0%, #feb645 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #f1e767), color-stop(100%, #feb645));
-    background: -webkit-linear-gradient(left, #f1e767 0%, #feb645 100%);
-    background: -o-linear-gradient(left, #f1e767 0%, #feb645 100%);
-    background: -ms-linear-gradient(left, #f1e767 0%, #feb645 100%);
-    background: linear-gradient(to right, #f1e767 0%, #feb645 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 ); }
+  header .header-right {
+    z-index: 1 !important; }
+    header .header-right figure {
+      margin: 0; }
+    header .header-right .download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 35px;
+      width: 35px;
+      border-radius: 100%;
+      background: #f1e767;
+      background: -moz-linear-gradient(left, #f1e767 0%, #feb645 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, #f1e767), color-stop(100%, #feb645));
+      background: -webkit-linear-gradient(left, #f1e767 0%, #feb645 100%);
+      background: -o-linear-gradient(left, #f1e767 0%, #feb645 100%);
+      background: -ms-linear-gradient(left, #f1e767 0%, #feb645 100%);
+      background: linear-gradient(to right, #f1e767 0%, #feb645 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 ); }
   header .header-left figure {
     margin: 0;
     display: flex;
@@ -299,7 +436,10 @@ body, html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Averta Light', sans-serif; }
+  font-family: 'Averta Regular', sans-serif; }
+
+.exibir-texto {
+  display: none; }
 
 main {
   min-height: calc(100% - 210px);
@@ -315,7 +455,6 @@ main {
     background-attachment: cover;
     background-size: cover;
     position: relative;
-    margin-top: -50px;
     z-index: -1;
     border-radius: 50% / 10%;
     border-bottom: 2px solid #000;
@@ -349,10 +488,9 @@ main {
       main .container-carrosel .left-side figure, main .container-carrosel .right-side figure {
         margin: 0;
         padding: .5em;
-        border: 1px solid black;
         border-radius: 100%;
         height: auto;
-        width: 30px;
+        width: 25px;
         display: flex;
         align-items: center;
         justify-content: center; }
@@ -365,9 +503,9 @@ main {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      -webkit-box-shadow: -2px 10px 50px 0px #e1e2e3;
-      -moz-box-shadow: -2px 10px 50px 0px #e1e2e3;
-      box-shadow: -2px 10px 50px 0px #e1e2e3; }
+      -webkit-box-shadow: 10px 10px 50px 0px #e1e2e3;
+      -moz-box-shadow: 10px 10px 50px 0px #e1e2e3;
+      box-shadow: 10px 10px 50px 0px #e1e2e3; }
       main .container-carrosel .carrosel-box .carrosel-img {
         display: flex;
         align-items: center;
@@ -382,8 +520,11 @@ main {
         color: #626264; }
         main .container-carrosel .carrosel-box .carrosel-text p {
           margin: 0;
-          font-size: 14px; }
+          font-size: 12px; }
       main .container-carrosel .carrosel-box .saiba-mais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 30px;
         background-image: linear-gradient(to right, #1276AF, #00e3c0);
         font-weight: bold;
@@ -392,9 +533,10 @@ main {
         width: 100px;
         border: none;
         position: absolute;
-        bottom: 20px;
+        bottom: 22px;
         z-index: 1;
-        cursor: pointer; }
+        cursor: pointer;
+        text-decoration: none; }
 
 .right-side {
   cursor: pointer; }
@@ -408,8 +550,8 @@ main {
 .left-side {
   cursor: pointer; }
   .left-side figure {
-    background: #1276AF;
-    border-color: #1276AF; }
+    border: 1.5px solid #e1e2e4;
+    border-color: #e1e2e4; }
 
 footer {
   background-color: #1276af;

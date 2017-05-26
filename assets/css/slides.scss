@@ -25,6 +25,14 @@
   z-index: 2;
 }
 
+
+  .subtitle {
+    margin: 5px;
+    line-height: initial;
+    color: #1276AF;
+  }
+
+
 .slide:nth-of-type(1) {
   .img-slider {
     height: 90px;
@@ -50,7 +58,6 @@
     background-attachment: cover;
     background-size: cover;
     background-image: url('./../img/mobile/visa-neon.png');
-    
   }  
 }
 

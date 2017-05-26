@@ -1,4 +1,4 @@
-var claimCopy = ["Tipo um banco ," + '<br/>' + "só que mais seguro."];
+var claimCopy = ["Tipo um banco," + '<br/>' + "só que mais seguro."];
 
     document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.first-title', {
@@ -20,3 +20,4 @@ var claimCopy = ["Tipo um banco ," + '<br/>' + "só que mais seguro."];
         }
       });
     });
+

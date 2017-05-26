@@ -3,14 +3,17 @@ body , html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Averta Light', sans-serif;
+  font-family: 'Averta Regular', sans-serif;
 }  
+
+.exibir-texto {
+  display: none;
+}
 
 main {
   min-height: calc(100% - 210px);
   height: auto;
-  
-  
+
   .container {
     position: relative;
   }
@@ -24,17 +27,16 @@ main {
     background-attachment: cover;
     background-size: cover;
     position: relative;  
-    margin-top: -50px;
     z-index: -1;
     border-radius: 50% / 10%;
     border-bottom: 2px solid #000;
     filter: grayscale(.5);
     position: relative;
     @include flex; 
-
   }
 
   .container-text {
+
     position: absolute;
     top: 70px;
     z-index: 1;
@@ -63,10 +65,9 @@ main {
       figure {
         margin: 0;
         padding: .5em;
-        border: 1px solid black;
         border-radius: 100%;
         height: auto;
-        width: 30px;
+        width: 25px;
         @include flex;
       }
     }
@@ -78,9 +79,9 @@ main {
       width: 60%;
       @include flex;
       flex-direction: column;
-      -webkit-box-shadow: -2px 10px 50px 0px rgba(225,226,227,1);
-      -moz-box-shadow: -2px 10px 50px 0px rgba(225,226,227,1);
-      box-shadow: -2px 10px 50px 0px rgba(225,226,227,1);
+      -webkit-box-shadow: 10px 10px 50px 0px rgba(225,226,227,1);
+      -moz-box-shadow: 10px 10px 50px 0px rgba(225,226,227,1);
+      box-shadow: 10px 10px 50px 0px rgba(225,226,227,1);
 
       .carrosel-img {
         figure {
@@ -98,11 +99,12 @@ main {
         color: #626264;
         p {
           margin: 0;
-          font-size: 14px;
+          font-size: 12px;
         }
       }
 
       .saiba-mais {
+        @include flex;
         border-radius: 30px;
         background-image: linear-gradient(to right, #1276AF, #00e3c0);
         font-weight: bold;
@@ -111,9 +113,10 @@ main {
         width: 100px;
         border: none;
         position: absolute;
-        bottom: 20px;
+        bottom: 22px;
         z-index: 1;
         cursor: pointer;
+        text-decoration: none;
       }
     }
   }
@@ -134,8 +137,8 @@ main {
 .left-side {
   cursor: pointer;
   figure {
-    background: #1276AF;
-    border-color: #1276AF;
+    border: 1.5px solid #e1e2e4;;
+    border-color: #e1e2e4;
   }
 }
 
