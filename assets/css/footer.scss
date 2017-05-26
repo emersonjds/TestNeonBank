@@ -1,0 +1,34 @@
+footer  {
+  background-color: #1276af;
+  padding: 0 1.5em 0 1.5em;
+  bottom: 0;
+  @include flex;
+  flex-direction: column;
+
+  .atendimento, .icons, address {
+    width: 260px;
+    @include flex;
+    justify-content: space-around;
+  }
+
+  .atendimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h3 {
+      color: #fff;
+    }
+    .atendimento-text {
+      color : #0f5f8c;
+    }
+  }
+
+  address {
+   color : #0f5f8c;
+   flex-direction: column;
+   padding: 1em;
+   text-align: center;
+
+ }
+}

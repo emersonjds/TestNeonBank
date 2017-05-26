@@ -1,64 +1,102 @@
 @media only screen
 and (min-width : 320px)
 and (max-width : 480px) {
-/* Styles */
+	/* Styles */
 }
- 
+
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-/* Styles */
+	/* Styles */
 }
- 
+
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* Styles */
+	/* Styles */
 }
- 
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
-header {
-    .header-logo {
-      // height: 40px;
-      // width: 100%;
-    }
-  }
+	
 }
- 
+
 /* iPads (landscape) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
-/* Styles */
+
+	
 }
- 
+
 /* iPads (portrait) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
-  
+
 }
- 
+
 /* Desktops and laptops ----------- */
 @media only screen
-and (min-width : 1224px) {
-/* Styles */
+and (min-width: 1200px) {
+
+	main {
+		height: calc(100% - 90px) !important;
+	}
+
+	footer {
+		background-color: #1276af;
+		padding: 0 1.5em 0 1.5em;
+		bottom: 0;
+		flex-direction: row-reverse !important;
+		height: 90px;
+		display: flex;
+	}
 }
- 
+
+@media only screen
+and (min-width : 1224px) {
+	.saiba-mais {
+		&:hover {
+			-webkit-transform: scale(1.1); 
+			-ms-transition: all 200ms ease-in;
+			-ms-transform: scale(1); 
+			-moz-transition: all 200ms ease-in;
+			-moz-transform: scale(1.1);
+			transition: all 200ms ease-in;
+			transform: scale(1.1); 
+			height: 40px;
+			width: 120px;
+		}
+	}
+}
+
+
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
-/* Styles */
+	.saiba-mais {
+		&:hover {
+			-webkit-transform: scale(1.1); 
+			-ms-transition: all 200ms ease-in;
+			-ms-transform: scale(1); 
+			-moz-transition: all 200ms ease-in;
+			-moz-transform: scale(1.1);
+			transition: all 200ms ease-in;
+			transform: scale(1.1); 
+			height: 40px;
+			width: 120px;
+		}
+	}
 }
- 
+
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+	/* Styles */
 }
