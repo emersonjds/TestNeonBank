@@ -48,11 +48,11 @@
     .download:hover {
       background-color: #fff;
       color: #777;
-      -webkit-transition: All 0.5s ease;
-      -moz-transition: All 0.5s ease;
-      -o-transition: All 0.5s ease;
-      -ms-transition: All 0.5s ease;
-      transition: All 0.5s ease;
+      -webkit-transition: All 0.8s ease;
+      -moz-transition: All 0.8s ease;
+      -o-transition: All 0.8s ease;
+      -ms-transition: All 0.8s ease;
+      transition: All 0.8s ease;
       border-radius: 20px !important;
       width: 150px !important; }
       .download:hover img {
@@ -65,7 +65,7 @@
   main {
     height: calc(100% - 90px) !important; }
     main .container-img {
-      height: 400px !important; }
+      height: 270px !important; }
     main .container-text {
       top: 110px !important; }
       main .container-text .first-title {
@@ -75,7 +75,7 @@
     cursor: pointer; }
 
   .container-carrosel {
-    height: 260px !important; }
+    height: 270px !important; }
     .container-carrosel #slides {
       height: 270px !important; }
 
@@ -538,14 +538,15 @@ main {
         cursor: pointer;
         text-decoration: none; }
 
-.right-side {
-  cursor: pointer; }
-  .right-side figure {
-    background: #00a6dd; }
-    .right-side figure:hover {
-      -webkit-box-shadow: 0px 0px 12px 0px #00a6dd;
-      -moz-box-shadow: 0px 0px 12px 0px #00a6dd;
-      box-shadow: 0px 0px 12px 0px #00a6dd; }
+.right-side figure {
+  background: #00a6dd; }
+  .right-side figure img {
+    cursor: pointer; }
+  .right-side figure:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px #00a6dd;
+    -moz-box-shadow: 0px 0px 12px 0px #00a6dd;
+    box-shadow: 0px 0px 12px 0px #00a6dd;
+    transition: 150ms ease-in; }
 
 .left-side {
   cursor: pointer; }
