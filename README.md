@@ -1,7 +1,8 @@
 # TestNeonBank
 
 Resolução do Teste solicitado pela empresa Banco Neon https://www.banconeon.com.br/ <br>
-Sem utilizaço de libs externas com objetivo de funcionar em todas as plataformas
+
+Sem utilização de libs externas com objetivo de funcionar em todas as plataformas
 
 ## Como Rodar
 Clone o repositorio e execute o index.html
