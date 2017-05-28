@@ -1,10 +1,7 @@
 # TestNeonBank
 
-Resolução do Teste solicitado pela empresa Neon https://www.banconeon.com.br/, sem utilizaço de libs externas com objetivo de funcionar em todas as plataformas
-
-## Ferramentas Utilizadas
-Sass - http://sass-lang.com/
-Sublime Text 3 - https://www.sublimetext.com/
+Resolução do Teste solicitado pela empresa Banco Neon https://www.banconeon.com.br/
+Sem utilizaço de libs externas com objetivo de funcionar em todas as plataformas
 
 ## Como Rodar
 Clone o repositorio e execute o index.html
